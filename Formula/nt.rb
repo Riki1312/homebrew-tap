@@ -5,21 +5,21 @@
 class Nt < Formula
   desc "CLI for interacting with Notion via its MCP server"
   homepage "https://github.com/Riki1312/nt-cli"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/Riki1312/nt-cli/releases/download/v0.2.0/nt_darwin_amd64.tar.gz"
-      sha256 "6b73b69710aedd277dc980076f81372b97af2389e0999aed908dda7e499368ff"
+      url "https://github.com/Riki1312/nt-cli/releases/download/v0.2.1/nt_darwin_amd64.tar.gz"
+      sha256 "a842a6f4b3f666074798373f64856dfda7c0934f39f160caf2bb9ffeda1ac6b2"
 
       define_method(:install) do
         bin.install "nt"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/Riki1312/nt-cli/releases/download/v0.2.0/nt_darwin_arm64.tar.gz"
-      sha256 "b33f05de3777dc9aba91f104a301730d2f1443b2d696385c7d27b71aa0ed084b"
+      url "https://github.com/Riki1312/nt-cli/releases/download/v0.2.1/nt_darwin_arm64.tar.gz"
+      sha256 "e4fd5b487677ee7d638dbc53ddf31fbcb8cb2854f55f27c8e98915418cea34ea"
 
       define_method(:install) do
         bin.install "nt"
@@ -29,15 +29,15 @@ class Nt < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/Riki1312/nt-cli/releases/download/v0.2.0/nt_linux_amd64.tar.gz"
-      sha256 "8a99238f33df80bf72f1c41fd9b268938b5595a2f54eda9cecafefe1bc9e9e0b"
+      url "https://github.com/Riki1312/nt-cli/releases/download/v0.2.1/nt_linux_amd64.tar.gz"
+      sha256 "e21097ba2c537a487f867a569cc00cc43c34c722b824f3cadfc46c11020c2ce7"
       define_method(:install) do
         bin.install "nt"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/Riki1312/nt-cli/releases/download/v0.2.0/nt_linux_arm64.tar.gz"
-      sha256 "90e474337e80253d674ff8c4dab41591b3d18b041655c09834999106659ee557"
+      url "https://github.com/Riki1312/nt-cli/releases/download/v0.2.1/nt_linux_arm64.tar.gz"
+      sha256 "b4bf183ab7ebd899be75b91690b8f24c5959fd63534fb92bf39ad97bf93329b0"
       define_method(:install) do
         bin.install "nt"
       end
