@@ -1,20 +1,20 @@
 class Conduit < Formula
   desc "Agent-first developer operations CLI."
   homepage "https://github.com/Riki1312/conduit-cli"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Riki1312/conduit-cli/releases/download/v0.1.1/conduit-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "f155f4c3e9d8134624792e5b28425c20df4e1c001a79752c557da42e9b81ef66"
+      url "https://github.com/Riki1312/conduit-cli/releases/download/v0.1.2/conduit-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "1d006fb816994b3b6bd8039755f395f83e05a56478887383321b60da8d25ffd7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Riki1312/conduit-cli/releases/download/v0.1.1/conduit-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "fe9e68b648ffc52add4186a76a99fff72f57204b6908422d27d30b1607285b66"
+      url "https://github.com/Riki1312/conduit-cli/releases/download/v0.1.2/conduit-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "9c43ea395d2d74ad17812f8e8d263800b5b2fe2ebd47d51193a3a423b55302c7"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/Riki1312/conduit-cli/releases/download/v0.1.1/conduit-cli-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "5e1f808b2e3632fdc110ef49f201870baa05ff69b8c2a5eaa4a0e98418ff8ae9"
+    url "https://github.com/Riki1312/conduit-cli/releases/download/v0.1.2/conduit-cli-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "8f85e1f9c2f3a146a59cbd04b1805184eda7fa4fb44155b44596f9d0c4ad88c4"
   end
   license "MIT"
 
