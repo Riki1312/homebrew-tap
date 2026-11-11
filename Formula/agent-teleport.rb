@@ -3,28 +3,27 @@
 class AgentTeleport < Formula
   desc "Keep coding-agent sessions in your repository and move them between machines"
   homepage "https://github.com/Riki1312/agent-teleport"
-  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Riki1312/agent-teleport/releases/download/v0.1.1/agent-teleport_darwin_arm64.tar.gz"
-      sha256 "3ce02dc26813209a991a7be4054cd5b843e573c5d495917965d594df34ba9ded"
+      url "https://github.com/Riki1312/agent-teleport/releases/download/v0.1.2/agent-teleport_darwin_arm64.tar.gz"
+      sha256 "99d4a4c59ec2e5e809d3b94a474155e990f77a6df60c34ca02f8f83b60abab66"
     end
     on_intel do
-      url "https://github.com/Riki1312/agent-teleport/releases/download/v0.1.1/agent-teleport_darwin_amd64.tar.gz"
-      sha256 "527752be734b6e31e19b800de085c9d6f733c54d84155c9422f5432940b5a6bc"
+      url "https://github.com/Riki1312/agent-teleport/releases/download/v0.1.2/agent-teleport_darwin_amd64.tar.gz"
+      sha256 "daa4b4b5e301de7df8912fc36f573a3187098bfeeb9790385f3cc7fc2ba69dae"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Riki1312/agent-teleport/releases/download/v0.1.1/agent-teleport_linux_arm64.tar.gz"
-      sha256 "2685583b10b8241a950ce6c7f69c1a5e0706b17bff547eefff01df906e9567e4"
+      url "https://github.com/Riki1312/agent-teleport/releases/download/v0.1.2/agent-teleport_linux_arm64.tar.gz"
+      sha256 "3dc911d993d8f7f21e9ca71a1f2653a18cdbdda3949b711907cd546e9011dd5a"
     end
     on_intel do
-      url "https://github.com/Riki1312/agent-teleport/releases/download/v0.1.1/agent-teleport_linux_amd64.tar.gz"
-      sha256 "8df6174e26a29e5f25b3feb4943ca7c1dfc957cffbd7e4a51ca245334935b70e"
+      url "https://github.com/Riki1312/agent-teleport/releases/download/v0.1.2/agent-teleport_linux_amd64.tar.gz"
+      sha256 "3df361fe1b8220c8fc7034094f4e8c15b324486bb0f6ad195d743b6c10a3d18d"
     end
   end
 
