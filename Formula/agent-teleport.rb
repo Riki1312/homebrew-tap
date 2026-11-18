@@ -7,23 +7,23 @@ class AgentTeleport < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Riki1312/agent-teleport/releases/download/v0.1.2/agent-teleport_darwin_arm64.tar.gz"
-      sha256 "99d4a4c59ec2e5e809d3b94a474155e990f77a6df60c34ca02f8f83b60abab66"
+      url "https://github.com/Riki1312/agent-teleport/releases/download/v0.2.0/agent-teleport_darwin_arm64.tar.gz"
+      sha256 "450e31cc820329702ba37c7f540a4119f76217c0bf652606799a9004512f6ddb"
     end
     on_intel do
-      url "https://github.com/Riki1312/agent-teleport/releases/download/v0.1.2/agent-teleport_darwin_amd64.tar.gz"
-      sha256 "daa4b4b5e301de7df8912fc36f573a3187098bfeeb9790385f3cc7fc2ba69dae"
+      url "https://github.com/Riki1312/agent-teleport/releases/download/v0.2.0/agent-teleport_darwin_amd64.tar.gz"
+      sha256 "fa4424beefa6daad61731e4d65a7b1e7bf74297aeee22a78c7f11ca94331c83d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Riki1312/agent-teleport/releases/download/v0.1.2/agent-teleport_linux_arm64.tar.gz"
-      sha256 "3dc911d993d8f7f21e9ca71a1f2653a18cdbdda3949b711907cd546e9011dd5a"
+      url "https://github.com/Riki1312/agent-teleport/releases/download/v0.2.0/agent-teleport_linux_arm64.tar.gz"
+      sha256 "73503d22d991d0b89a8d114b309c76f3addf68d4087cf62f707b065e7ca829bd"
     end
     on_intel do
-      url "https://github.com/Riki1312/agent-teleport/releases/download/v0.1.2/agent-teleport_linux_amd64.tar.gz"
-      sha256 "3df361fe1b8220c8fc7034094f4e8c15b324486bb0f6ad195d743b6c10a3d18d"
+      url "https://github.com/Riki1312/agent-teleport/releases/download/v0.2.0/agent-teleport_linux_amd64.tar.gz"
+      sha256 "2139acf980ef0f15f8546af6a9cb827808e92e53e0153e75fe7396cb4678a878"
     end
   end
 
